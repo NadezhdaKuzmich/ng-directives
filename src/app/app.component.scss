@@ -1,0 +1,95 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  .title {
+    align-items: baseline;
+  }
+}
+
+.greeting {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0 0;
+}
+
+.admin {
+  background: #dbfff7;
+  border: 1px solid #3dccba;
+}
+
+.user {
+  background: #d8e7ff;
+  border: 1px solid #678fcc;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+  gap: 20px;
+
+  &__item {
+    background-color: #d8e7ff;
+    border: 1px solid #678fcc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+}
+
+.names {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  li {
+    width: 100%;
+    max-width: calc(100% / 3 - 60px);
+    min-width: 293px;
+    background: #d8e6ff;
+    border: 1px solid #678fcc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+}
+
+.car {
+  background: #e5e5ff;
+  border: 1px solid #8c8cd8;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.true {
+  color: #3dccba;
+}
+
+.false {
+  color: #ff928f;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.blue {
+  color: #678fcc;
+}
+
+.pipe-cotent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  span {
+    font-weight: 600;
+    color: #2b405f;
+  }
+}
